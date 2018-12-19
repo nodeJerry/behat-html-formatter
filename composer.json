@@ -1,10 +1,10 @@
 {
-    "name": "btstacc/behat-html-formatter",
+    "name": "behat-html-formatter",
     "description": "This will create a html formatter for Behat.",
     "authors": [
         {
-            "name": "btstacc",
-            "email": "btstacc@gmail.com"
+            "name": "TimFort",
+            "email": "tim.fortinbras@@gmail.com"
         }
     ],
     "require": {
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "btstacc\\BehatHTMLFormatter\\": "src/"
+            "node\\BehatHTMLFormatter\\": "src/"
         }
     }
 }
