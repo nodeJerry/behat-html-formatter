@@ -6,7 +6,7 @@
  * Time: 12:50
  */
 
-namespace btstacc\BehatHTMLFormatter\Classes;
+namespace node\BehatHTMLFormatter\Classes;
 
 
 class Suite

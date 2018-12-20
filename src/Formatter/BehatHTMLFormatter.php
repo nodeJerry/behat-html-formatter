@@ -1,6 +1,6 @@
 <?php
 
-namespace btstacc\BehatHTMLFormatter\Formatter;
+namespace node\BehatHTMLFormatter\Formatter;
 
 use Behat\Behat\EventDispatcher\Event\AfterFeatureTested;
 use Behat\Behat\EventDispatcher\Event\AfterOutlineTested;
@@ -19,12 +19,12 @@ use Behat\Testwork\EventDispatcher\Event\BeforeSuiteTested;
 use Behat\Testwork\Output\Exception\BadOutputPathException;
 use Behat\Testwork\Output\Formatter;
 use Behat\Testwork\Output\Printer\OutputPrinter;
-use btstacc\BehatHTMLFormatter\Classes\Feature;
-use btstacc\BehatHTMLFormatter\Classes\Scenario;
-use btstacc\BehatHTMLFormatter\Classes\Step;
-use btstacc\BehatHTMLFormatter\Classes\Suite;
-use btstacc\BehatHTMLFormatter\Printer\FileOutputPrinter;
-use btstacc\BehatHTMLFormatter\Renderer\BaseRenderer;
+use node\BehatHTMLFormatter\Classes\Feature;
+use node\BehatHTMLFormatter\Classes\Scenario;
+use node\BehatHTMLFormatter\Classes\Step;
+use node\BehatHTMLFormatter\Classes\Suite;
+use node\BehatHTMLFormatter\Printer\FileOutputPrinter;
+use node\BehatHTMLFormatter\Renderer\BaseRenderer;
 
 /**
  * Class BehatHTMLFormatter

@@ -4,7 +4,7 @@
  * @author DaSayan <glennwall@free.fr>
  */
 
-namespace btstacc\BehatHTMLFormatter\Renderer;
+namespace node\BehatHTMLFormatter\Renderer;
 
 class Behat2Renderer implements RendererInterface {
 

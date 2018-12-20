@@ -6,7 +6,7 @@
  * Time: 14:39
  */
 
-namespace btstacc\BehatHTMLFormatter\Classes;
+namespace node\BehatHTMLFormatter\Classes;
 
 use Behat\Behat\Tester\Result\StepResult;
 
@@ -165,7 +165,7 @@ class Step
     {
         $this->resultCode = $resultCode;
     }
-    
+
      /**
      * @return bool
      */
@@ -173,7 +173,7 @@ class Step
     {
         return $this->resultCode == StepResult::PASSED;
     }
-    
+
      /**
      * @return bool
      */
@@ -181,7 +181,7 @@ class Step
     {
         return $this->resultCode == StepResult::SKIPPED;
     }
-    
+
      /**
      * @return bool
      */
@@ -189,7 +189,7 @@ class Step
     {
         return ($this->resultCode == StepResult::PENDING || $this->resultCode == StepResult::UNDEFINED);
     }
-    
+
      /**
      * @return bool
      */
