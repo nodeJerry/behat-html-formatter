@@ -52,7 +52,7 @@ class BehatHTMLFormatterExtension implements ExtensionInterface {
    */
   public function configure(ArrayNodeDefinition $builder) {
     $builder->children()->scalarNode("name")->defaultValue("nodehtml");
-    $builder->children()->scalarNode("renderer")->defaultValue("Twig");
+    $builder->children()->scalarNode("renderer")->defaultValue("Behat2");
     $builder->children()->scalarNode("file_name")->defaultValue("generated");
     $builder->children()->scalarNode("print_args")->defaultValue("false");
     $builder->children()->scalarNode("print_outp")->defaultValue("false");
